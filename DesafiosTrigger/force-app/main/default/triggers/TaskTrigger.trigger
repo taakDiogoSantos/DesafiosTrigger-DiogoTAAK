@@ -1,10 +1,9 @@
 trigger TaskTrigger on Task (before insert) {
     
-    //Chama o handler que verifica se ja exoste tarefa para o caso]
     if(trigger.isBefore && trigger.isInsert){
-      
-            TaskTriggerHandler.CaseAlreadyHaveTask(Trigger.new);        
-        }
-        
+        //Chama o handler que verifica se ja exoste tarefa para o caso]
+        TaskTriggerHandler.CaseAlreadyHaveTask(Trigger.new);        
     }
+        
+}
     
