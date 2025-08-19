@@ -15,5 +15,4 @@ List<Case> casesToInsert = [SELECT Id FROM Case WHERE Status = 'closed'];
       task1.WhatId = '500aj00001Arh2pAAB';
       tarefas.add(task1);
     
-
     Database.insert (tarefas, false);
