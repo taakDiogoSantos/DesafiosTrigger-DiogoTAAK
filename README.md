@@ -2,8 +2,8 @@
 repositorio para armazenar a execuçao de desafios de triggers
 
 Arquivos localizados em:
-    >force-app/main/default/classes
-    >force-app/main/default/triggers
+    >force-app/main/default/classes<br>
+    >force-app/main/default/triggers<br>
 
 -- Trigger 1: Realizado trigger que impede a criaçao de mais de uma Task para um mesmo Case.
  
